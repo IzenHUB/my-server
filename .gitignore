@@ -1,0 +1,20 @@
+# Whitelist style (as in the slides): ignore everything, then allow what we need
+*
+
+# source + config needed for CI to build and test
+!src/
+!src/*.ts
+!package.json
+!package-lock.json
+!tsconfig.json
+!nodemon.json
+!.gitignore
+
+# workflows
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
+
+# compiled output (slide: commit dist/*.js)
+!dist/
+!dist/*.js
