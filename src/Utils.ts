@@ -12,7 +12,7 @@ function isValidEmail(email: string): boolean {
 
 // age must be an integer between 1 and 120
 function isValidAge(age: number): boolean {
-  return Number.isInteger(age) && age >= 1 && age <= 100;
+  return Number.isInteger(age) && age >= 1 && age <= 120;
 }
 
 export const Utils = { helloworld, add, isValidEmail, isValidAge };
