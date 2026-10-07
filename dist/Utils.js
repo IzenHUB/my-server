@@ -12,6 +12,6 @@ function isValidEmail(email) {
 }
 // age must be an integer between 1 and 120
 function isValidAge(age) {
-    return Number.isInteger(age) && age >= 1 && age <= 200;
+    return Number.isInteger(age) && age >= 1 && age <= 120;
 }
 exports.Utils = { helloworld, add, isValidEmail, isValidAge };

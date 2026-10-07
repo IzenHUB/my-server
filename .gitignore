@@ -4,6 +4,11 @@
 # source + config needed for CI to build and test
 !src/
 !src/*.ts
+!public/
+!public/*
+!Dockerfile
+!docker-compose.yml
+!.dockerignore
 !package.json
 !package-lock.json
 !tsconfig.json
